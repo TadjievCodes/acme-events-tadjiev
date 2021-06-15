@@ -1,4 +1,6 @@
- 
+ import '../../scss/main.scss';
+ import  HeartLamp from './HeartLamp'
+
  const Home = () => {
 
       return(
@@ -10,7 +12,7 @@
 
                           </div>
                                  
-
+           <HeartLamp />           
           </div>
       )
  }
