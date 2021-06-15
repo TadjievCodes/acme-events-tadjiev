@@ -1,0 +1,36 @@
+/*Typography part ------------------------------------------------- */
+
+@import 'variables';
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+
+
+.homePage h1{
+
+  /* H1 */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 49px;
+  /* identical to box height */
+  text-align: center;
+  color: $gray-background;
+}
+
+.homePage h3{
+
+  /* H3 - Subheader */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 35px;
+  text-align: center;
+
+  max-width: 640px;
+  margin: 0 auto;
+
+  color: $black;
+}

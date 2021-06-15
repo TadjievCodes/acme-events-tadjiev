@@ -1,0 +1,18 @@
+/* BASE ------------------------------------------------- */
+
+
+@import 'variables', 'typography', 'reset', 'scaffolding', 'form', 'animation', 'mixins', 'navigation';
+
+/*
+@-ms-viewport{
+  width: device-width;
+}
+*/
+/*
+.center {
+  text-align: center;
+}
+*/
+html {
+  scroll-behavior: smooth;
+}
