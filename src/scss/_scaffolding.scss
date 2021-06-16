@@ -21,7 +21,48 @@
 
 .heartLampSection{
  padding-top: 22px;
- padding-bottom: 70px;
+
+}
+
+@media only screen and (max-width: 600px) {
+.heartLampImg {
+  margin: 0px 20px 0px 35px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+.ticketText {
+  text-align: center;
+  }
+}
+
+
+
+
+/* Video Section */
+
+.videoPart{
+  background-color: $primary-light;
+  height: 526px;
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.resp-iframe {
+  width: 560px;
+  height: 325px;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+.resp-iframe {
+max-width: 75%;
+margin: 45px 55px 45px 60px;
+align-items: center;
+justify-content: center;
+}
 
 }
 

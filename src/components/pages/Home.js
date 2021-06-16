@@ -1,5 +1,6 @@
  import '../../scss/main.scss';
  import  HeartLamp from './HeartLamp'
+import Video from './Video'
 
  const Home = () => {
 
@@ -13,6 +14,9 @@
                           </div>
                                  
            <HeartLamp />           
+           <Video />
+
+           
           </div>
       )
  }

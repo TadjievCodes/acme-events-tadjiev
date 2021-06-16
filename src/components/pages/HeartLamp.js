@@ -11,7 +11,7 @@ const HeartLamp = () => {
                             <img className="heartLampImg" src={heartLamps} alt="heart Lamp"/>
                         </div>
                           <div className="col-lg-6 col-xl-8 text-left pl-xl-5 mt-2">
-                             <h2 className="mb-4">Make your ticket holders happy</h2>
+                             <h2 className="mb-4 ticketText">Make your ticket holders happy</h2>
                                     <p>
                                         A beautiful little sunset. Talent is a pursued interest. That is to say, anything you practice you can do. This
                                         is probably the greatest thing that's ever happened in my life. These things happen automatically. All you
