@@ -34,3 +34,26 @@
 
   color: $gray-background;
 }
+
+
+
+.heartLampSection h2{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 41px;
+  /* identical to box height */
+  color: $gray-background;
+}
+
+
+.heartLampSection p{
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: $gray-background;
+}
