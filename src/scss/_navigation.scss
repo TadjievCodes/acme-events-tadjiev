@@ -55,6 +55,14 @@
   text-align: center;
   text-transform: uppercase;
   color: $black;
+  margin-right: 40px;
+
+  &:hover,
+  &:active {
+    background-color: lighten($primary-blue, 10% );
+    color: $white;
+  }
+  
 }
 
 /* Header */
@@ -88,4 +96,10 @@
   text-align: center;
   text-transform: uppercase;
   color: $white;
+
+  &:hover,
+  &:active {
+    background-color: lighten($primary-blue, 10% );
+    color: $white;
+  }
 } 

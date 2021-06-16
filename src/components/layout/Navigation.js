@@ -8,7 +8,7 @@ const Navigation = () => {
     
         <nav className="navbar">       
           <div className="container-fluid">        
-             <a className="navbar-brand" href="/#"><img src={Logo} alt="Logo"/></a>
+             <a className="navbar-brand ml-4" href="/#"><img  src={Logo} alt="Logo"/></a>
 
                <div className="d-flex">
                   <a className="log-in-Button nav-link" href="/#">LOG-IN</a>
