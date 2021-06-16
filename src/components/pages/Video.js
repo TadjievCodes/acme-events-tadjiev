@@ -9,8 +9,7 @@ const Video = () => {
                      <iframe class="resp-iframe" 
                                   src="https://www.youtube.com/embed/l73rmrLTHQc" 
                                   gesture="media"  
-                                  allow="encrypted-media" 
-                                  allowfullscreen>
+                                  allow="encrypted-media" >
                      </iframe>
                 </div>
 </section>
