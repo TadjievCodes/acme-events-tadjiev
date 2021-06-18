@@ -4,13 +4,13 @@ import '../../scss/main.scss';
 const HeartLamp = () => {
     
     return ( 
- <section className="heartLampSection">  
-  <div className="container">
+         <section className="heartLampSection">  
+            <div className="container">
                     <div className="row">
-                        <div className="col-lg-6 col-xl-4">
-                            <img className="heartLampImg" src={heartLamps} alt="heart Lamp"/>
+                        <div className="d-flex col-lg-6 col-xl-4 col-xs-6">
+                            <img className="heartLampImg img-fluid" src={heartLamps} alt="heart Lamp"/>
                         </div>
-                          <div className="col-lg-6 col-xl-8 text-left pl-xl-5 mt-2">
+                          <div className="col-lg-6 col-xl-8 col-xs-6 text-left pl-xl-5 mt-2">
                              <h2 className="mb-3 ticketText">Make your ticket holders happy</h2>
                                     <p>
                                         A beautiful little sunset. Talent is a pursued interest. That is to say, anything you practice you can do. This
@@ -22,11 +22,11 @@ const HeartLamp = () => {
                                         home and having a snow-covered dinner. Just pretend you are a whisper floating across a mountain. Zip.
                                         That easy.
                                     </p>
-                                    <a className="feature" href="/#">View full feature list</a>
+                                    <a className="feature-Link" href="/#">View full feature list</a>
                         </div>
                     </div>
-  </div>
- </section>    
+                </div>
+             </section>    
 
     );
 }

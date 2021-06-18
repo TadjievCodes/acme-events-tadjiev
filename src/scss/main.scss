@@ -1,18 +1,19 @@
 /* BASE ------------------------------------------------- */
 
 
-@import 'variables', 'typography', 'reset', 'scaffolding', 'form', 'animation', 'mixins', 'navigation';
+@import 'variables', 'typography', 'reset', 'scaffolding', 'form', 'animation', 'mixins', 'navigation', 'map';
 
-/*
+
 @-ms-viewport{
   width: device-width;
 }
-*/
-/*
+
+
 .center {
   text-align: center;
 }
-*/
+
+
 html {
   scroll-behavior: smooth;
 }

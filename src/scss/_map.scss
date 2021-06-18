@@ -1,0 +1,84 @@
+/* Map Section */
+
+.mapArea{
+  background: #303030;
+}
+
+.mapArea h6{
+  text-transform: uppercase;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  letter-spacing: 0.291667px;
+  color:  #FFFFFF;
+}
+
+.mapArea p{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  letter-spacing: 0.291667px;
+  color:  #FFFFFF;
+  margin-bottom: 4%;
+}
+
+
+/* Footer Section */
+
+
+footer{
+  background: #303030;
+  color: #FFF;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  letter-spacing: 0.291667px;
+}
+
+
+footer .container{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+
+footer p{
+  margin-left: 5px;
+}
+
+.socialIcons{
+  margin-left: 20px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .map-responsive {
+  max-width: 100%;
+  max-height: 60%;
+ }
+
+}
+
+.mapClass {
+ overflow: hidden;
+ 
+}
+
+.map-responsive {
+ overflow: hidden;
+
+}
+
+.selectedPlaceText {
+  font-size: 14px;
+}

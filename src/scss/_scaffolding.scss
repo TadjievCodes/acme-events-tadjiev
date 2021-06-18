@@ -8,13 +8,13 @@
   height: 288px;
 }
 
-.feature{
+.feature-Link{
   border-bottom: 3px solid $primary-blue;
   padding-bottom: 3px;
   font-weight: 600;
 }
 
-.feature:hover{
+.feature-Link:hover{
   text-decoration: none;
   color: $primary-blue;
 } 
@@ -26,7 +26,7 @@ padding-bottom: 30px;
 
 @media only screen and (max-width: 600px) {
 .heartLampImg {
-  margin: 0px 20px 0px 35px;
+ // margin: 0px 20px 0px 35px;
   }
 }
 
@@ -59,8 +59,8 @@ padding-bottom: 30px;
 
 @media only screen and (max-width: 600px) {
 .resp-iframe {
-max-width: 75%;
-margin: 45px 55px 45px 60px;
+max-width: 65%;
+margin: 45px 55px 45px 70px;
 align-items: center;
 justify-content: center;
 }

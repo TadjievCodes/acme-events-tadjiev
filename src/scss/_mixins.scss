@@ -1,8 +1,12 @@
 /* Mixins part ------------------------------------------------- */
 
-@mixin auto-Layout{
+@mixin auto-Layout {
   flex: none;
   order: 1;
   flex-grow: 0;
   margin: 0px 16px;
+}
+
+@mixin font-family {
+  font-family: Open Sans;
 }

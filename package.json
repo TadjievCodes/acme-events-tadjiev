@@ -3,14 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-regular-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "bootstrap": "^4.6.0",
+    "google-maps-react": "^2.0.6",
     "node-sass": "^6.0.0",
     "react": "^17.0.2",
+    "react-app-polyfill": "^2.0.0",
     "react-bootstrap": "^1.6.1",
     "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
@@ -30,12 +38,18 @@
     "production": [
       ">0.2%",
       "not dead",
-      "not op_mini all"
+      "not op_mini all",
+      "IE 11"
     ],
     "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
+      "last 2 chrome version",
+      "last 2 firefox version",
+      "last 2 safari version",
+       "last 2 edge version",
+      "IE 11"
     ]
+  },
+    "devDependencies": {
+    "@babel/plugin-transform-arrow-functions": "^7.13.0"
   }
 }

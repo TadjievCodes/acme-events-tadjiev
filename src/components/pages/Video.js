@@ -8,8 +8,8 @@ const Video = () => {
                 <div class="resp-container">
                      <iframe class="resp-iframe" 
                                   src="https://www.youtube.com/embed/l73rmrLTHQc" 
-                                  gesture="media"  
-                                  allow="encrypted-media" >
+                                  title="Cute Baby Pandas"
+                                  allow="autoplay" allowFullScreen>
                      </iframe>
                 </div>
 </section>
