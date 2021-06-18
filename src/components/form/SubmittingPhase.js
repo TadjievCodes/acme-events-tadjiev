@@ -7,7 +7,7 @@ const SubmittingPhase = () => {
                 <div className="container">
                     <div className="row d-flex align-items-center">
                             <div className="col col-md-6 text-left">
-                              <h2 className="mb-4 book">Book a demo</h2>
+                              <h2 className="mb-4 bookDemoText">Book a demo</h2>
                                 <p className="fieldsMarked">Fields marked with a <strong className="asterisk">*</strong> are required</p>
                              
                                   <div class="lds-default"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div> </div>  

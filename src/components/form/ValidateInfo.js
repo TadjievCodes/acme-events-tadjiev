@@ -57,9 +57,7 @@ if (!values.email || !pattern.test(values.email) ) {
         firstName: values.firstName,
         lastName: values.lastName,
         email: values.email,
-        phone: values.phone,
-        radioEmail: values.radioEmail,
-        radioPhone: values.radioPhone
+        phone: values.phone
        
     };
 

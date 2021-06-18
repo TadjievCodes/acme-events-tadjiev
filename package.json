@@ -12,6 +12,7 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "bootstrap": "^4.6.0",
+    "google-map-react": "^2.1.9",
     "google-maps-react": "^2.0.6",
     "node-sass": "^6.0.0",
     "react": "^17.0.2",
@@ -45,11 +46,11 @@
       "last 2 chrome version",
       "last 2 firefox version",
       "last 2 safari version",
-       "last 2 edge version",
+      "last 2 edge version",
       "IE 11"
     ]
   },
-    "devDependencies": {
+  "devDependencies": {
     "@babel/plugin-transform-arrow-functions": "^7.13.0"
   }
 }

@@ -25,7 +25,7 @@ const FormSignup = ({ submitForm}) => {
                     <div className="row d-flex align-items-center">
                         <div className="col text-left">
                             <div className="demo">
-                              <h2 className="mb-4">Book a demo</h2>
+                              <h2 className="mb-4 bookDemoText">Book a demo</h2>
                                 <p className="fieldsMarked">Fields marked with a <strong className="asterisk">*</strong> are required</p>
 
                                 <form onSubmit={handleSubmit} noValidate>
@@ -137,7 +137,7 @@ const FormSignup = ({ submitForm}) => {
                         </div>
 
                         <div className="col d-flex justify-content-md-end justify-content-sm-end mt-5">
-                            <img className="event img-fluid" src={eventPicture} alt="event description"/>
+                            <img className="event"  src={eventPicture} alt="event description"/>
                         </div>
                     </div>
                 </div>

@@ -30,8 +30,16 @@
 
 }
 
+label{
+ color: $black;
+  @include font-family;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+}
 
-label .contactMethod{
+ .contactMethod{
   color: $black;
   @include font-family;
   font-style: normal;
@@ -47,10 +55,11 @@ font-style: normal;
 font-weight: normal;
 font-size: 16px;
 line-height: 140%;
+color: $gray-background;
 }
 
 .asterisk{
-  color: #D0021B;
+  color: $red;
 }
 
 .container .row .col .demo .form-row .form-control .form-group{
@@ -86,13 +95,44 @@ line-height: 140%;
 
 }
 
+
+
+
+/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-.btnSubmit {
-max-width: 55%;
-max-height: 70%;
+ .btnSubmit {
+    width: 96px;
+    height: 32px;
+    /*Default*/
 }
 
 }
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .btnSubmit {
+    width: 116px;
+    height: 42px;
+}
+}
+
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .btnSubmit {
+    // reduced the size even for large devices as it seems too big button for me  supposed to be ( width: 136px; height: 52px; )
+      width: 126px;
+      height: 42px;
+      /* Default */
+      }
+}
+
+
+
 
 
 .icon {
@@ -142,5 +182,33 @@ max-height: 65%;
 }
 
 
+.event{
+ overflow:hidden;
+}
 
 
+.bookDemoText{
+  font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 41px;
+/* identical to box height */
+
+
+color: $gray-background;
+}
+
+.demoRequestText {
+ /* H2 */
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 41px;
+/* identical to box height */
+
+color: $gray-background;
+
+ 
+}

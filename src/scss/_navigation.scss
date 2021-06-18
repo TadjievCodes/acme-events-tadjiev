@@ -79,17 +79,45 @@ line-height: 16px;
   
 }
 
-
+/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
  .sign-up-Button { 
-max-width: 50%;
-max-height: 60%;
-font-size: 12px;
-line-height: 16px;
-}
+    width: 96px;
+    height: 32px;
+    /* Default */
+    background: #F5F5F5;
+    border-radius: 20px;
+    }
 
 }
 
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .sign-up-Button { 
+      width: 116px;
+      height: 42px;
+     /* Default */
+    background: #F5F5F5;
+    border-radius: 40px;
+    }
+}
+
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .sign-up-Button {
+    // reduced the size even for large devices as it seems too big button for me  supposed to be ( width: 136px; height: 52px; )
+      width: 116px;
+      height: 34px;
+      /* Default */
+      background: #F5F5F5;
+      border-radius: 26px;
+      }
+}
 
 
 /* Header */
